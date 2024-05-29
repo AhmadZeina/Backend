@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/polls.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+
+.navbar {
+    background-color: #d1deec;
+    color: #201a1a;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.question-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.question-list li {
+    margin-bottom: 10px;
+}
+
+.question-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.question-link:hover {
+    text-decoration: underline;
+}

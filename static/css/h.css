@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/ss.webp); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    
+    background-color: #c08d8d95; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 10px;
+    color: #000000; 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsla(0, 3%, 82%, 0.461); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    color: #333; 
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .diseases li a {
+    color: #ffffff; 
+  }
+  
