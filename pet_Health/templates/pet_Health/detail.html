@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Detail</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        b {
+            color: #007bff;
+        }
+
+        .treatment {
+            font-style: italic;
+        }
+
+        .common-signs {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>{{ selected_disease.disease_name }}</h3>
+        <p>This disease affects <b>{{ selected_disease.animal }}</b>.</p>
+        <p class="common-signs"><b>Common signs for this disease:</b> {{ selected_disease.common_signs }}</p>
+        <p>
+            <b>How dangerous is this disease?</b>
+            <div>We can say that the hurt degree of this disease is <b>{{ selected_disease.hurt_degree }}</b>.</div>
+        </p>
+        <p>Treatments for this disease:</p>
+        <p class="treatment">{{ selected_disease.treatment }}</p>
+    </div>
+</body>
+</html>
